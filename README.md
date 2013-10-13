@@ -15,13 +15,13 @@ A Node.js logger that uses OS X notifications
 
 ## Usage
 ```js
-	var termy = require('termy');
-	termy.yell('Error');
-	termy.yell('Error', { sticky: true }); // make it sticky
-	termy.yell('Error', { title: 'Module error'}); // define your title
-	termy.yell('Error', {}, function() {
-		// do some cool stuff in this callback
-	})
+var termy = require('termy');
+termy.yell('Error');
+termy.yell('Error', { sticky: true }); // make it sticky
+termy.yell('Error', { title: 'Module error'}); // define your title
+termy.yell('Error', {}, function() {
+	// do some cool stuff in this callback
+})
 ```
 
 ## Contributing
