@@ -1,0 +1,11 @@
+{
+  "name": "termy",
+  "version": "1.0",
+  "description": "A Node.js logger that uses OS X notifications",
+  "author": "Variu Sergiu <variusergiu@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vsergiu/termy"
+  },
+  "main": "./lib/termy.js"
+}
