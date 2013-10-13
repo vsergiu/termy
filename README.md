@@ -14,7 +14,7 @@ A Node.js logger that uses OS X notifications
       $ npm install termy
 
 ## Usage
-
+```js
 	var termy = require('termy');
 	termy.yell('Error');
 	termy.yell('Error', { sticky: true }); // make it sticky
@@ -22,7 +22,8 @@ A Node.js logger that uses OS X notifications
 	termy.yell('Error', {}, function() {
 		// do some cool stuff in this callback
 	})
-	
+```
+
 ## Contributing
 
 1. Fork it
