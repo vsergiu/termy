@@ -1,7 +1,7 @@
 termy
 =====
 
-A Node.js logger that uses OS X notifications
+A Node.js logger that uses OS X notifications. Inspired by [bitch](https://github.com/jacksongariety/bitch)
 
 ## Installation
 
